@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f4f1;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 900px;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 6px;
+  font-size: 12px;
+}
+
+th {
+  background: #f3e9e3;
+  position: sticky;
+  top: 0;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.1);
+}
